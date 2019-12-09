@@ -1,0 +1,22 @@
+<h1>edit your profile</h1>
+
+<%= form_for @adopter do |f| %>
+<%= f.label :name ,"name:" %>
+<%= f.text_field :name %>
+
+<%= f.label :description, "Description:"%>
+<%= f.text_area :description %><br>
+<br>
+<%= f.label :zip,"zip code:"%>
+<%= f.text_field :zip %><br>
+<br>
+<%= f.label :avatar,"upload a photo:"%>
+<%= f.file_field :avatar %><br>
+<br>
+<%= f.label :password,"change your password:" %>
+<%= f.password_field :password %>
+
+<%= f.submit "submit changes" %>
+<% end%>
+
+
