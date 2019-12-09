@@ -1,1 +1,1 @@
-https://pet-match-2019.herokuapp.com/login
+https://pet-match-2019.herokuapp.com/
